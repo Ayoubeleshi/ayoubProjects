@@ -6,6 +6,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.wave {
+    display: inline-block;
+    animation: animate-wave 500ms infinite ease-in-out;
+}
 
 html{
     scroll-behavior: smooth;
@@ -180,7 +184,7 @@ nav{
 
 
 .txt--blue{
-    color: #6030B1;
+    color:#6030b1;
     font-weight: bold;
 }
 
